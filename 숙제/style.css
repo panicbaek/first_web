@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffe500; 
+  font-family: 'Apple SD Gothic Neo', sans-serif;
+}
+
+
+.bottom-profile {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffe500;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+.name {
+  margin: 15px 0 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.status {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 500px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  color: #000;
+}
+
+.menu-item i {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
